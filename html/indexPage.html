@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/img/pikaqiu.png">
+    <title>新网页</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.rtl.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.rtl.css">
+    <link rel="stylesheet" href="../css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="../css/bootstrap-utilities.rtl.css">
+
+</head>
+<body>
+
+<div id="web_bg"></div>
+<!--<div id="cover"></div>-->
+<div class="row justify-content-md-center" id="select-box">
+    <div class="col-6">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="queryInput" placeholder="请输入搜索内容" aria-label="请输入搜索内容" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="queryButton">搜索</button>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="container" id="linkPage">-->
+<!--    <div class="row justify-content-md-center gx-2">-->
+<!--        <div class="col-3"></div>-->
+<!--        <div class="col-1">-->
+<!--            <img src="https://www.processon.com/favicon.ico" class="linkPage-img rounded-circle border border-2" alt="ProcessOn - 免费在线作图，思维导图，流程图，实时协作">-->
+<!--        </div>-->
+<!--        <div class="col-1">-->
+<!--            <img src="https://github.githubassets.com/pinned-octocat.svg" class="linkPage-img rounded-circle border border-2" alt="ProcessOn - 免费在线作图，思维导图，流程图，实时协作">-->
+<!--        </div>-->
+<!--        <div class="col-1">-->
+<!--            <img src="https://vue3js.cn/docs/zh/images/icons/apple-icon-152x152.png" class="linkPage-img rounded-circle border border-2" alt="ProcessOn - 免费在线作图，思维导图，流程图，实时协作">-->
+<!--        </div>-->
+<!--        <div class="col-1">-->
+<!--            <img src="https://www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg" class="linkPage-img rounded-circle border border-2" alt="ProcessOn - 免费在线作图，思维导图，流程图，实时协作">-->
+<!--        </div>-->
+<!--        <div class="col-1">-->
+<!--            <img src="https://v5.bootcss.com/docs/5.1/assets/img/favicons/favicon-32x32.png" class="linkPage-img rounded-circle border border-2" alt="ProcessOn - 免费在线作图，思维导图，流程图，实时协作">-->
+<!--        </div>-->
+<!--        <div class="col-1">-->
+<!--            <img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" class="linkPage-img rounded-circle border border-2" alt="ProcessOn - 免费在线作图，思维导图，流程图，实时协作">-->
+<!--        </div>-->
+<!--        <div class="col-3"></div>-->
+
+<!--    </div>-->
+<!--</div>-->
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/bootstrap.esm.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/chrome.js"></script>
+<script src="../js/indexPage.js"></script>
+</body>
+<style>
+    #web_bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        min-width: 1000px;
+        z-index: -10;
+        zoom: 1;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-position: center 0;
+        background-image: url('../img/pikachu.jpg');
+        filter: blur(10px);
+
+
+    }
+    #cover {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: url("../img/pikachu.jpg");
+        filter: blur(10px);
+    }
+    #select-box{
+        margin-top: 10%;
+    }
+
+    body{
+        overflow:hidden;
+    }
+
+    #linkPage{
+        margin-top: 8%;
+    }
+
+    .linkPage-img{
+        height: 50px;
+        width: 50px;
+    }
+</style>
+
+</html>

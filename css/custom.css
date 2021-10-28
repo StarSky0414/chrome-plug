@@ -1,0 +1,12 @@
+#su {
+    border-bottom: none !important;
+    background: black !important;
+}
+
+code{
+    user-select:text !important;
+}
+
+#content_views pre code{
+    user-select:text !important;
+}

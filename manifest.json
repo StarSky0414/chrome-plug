@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "小黑",
+  "description": "小黑主体插件",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": {
+      "19": "/img/pikaqiu.png",
+      "38": "/img/pikaqiu.png"
+    },
+    "default_title": "小黑",
+    "default_popup": "/html/popup.html"
+  },
+  "options_page": "/html/options.html",
+  "chrome_url_overrides": {
+    "newtab": "/html/indexPage.html"
+  },
+  "content_scripts":
+  [
+    {
+      "matches": ["https://blog.csdn.net/*","https://www.baidu.com/","https://blog.csdn.net/qq_29007291/article/details/82221437"],
+      "css": ["/css/custom.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
